@@ -1,144 +1,72 @@
-<!--
-    Hello there wanderer! Here is derp awesome HulkBot Website made by yours truly... Kidding! Made with FontAwesome & Bulma CSS Framework!
-    Anyways, If you do not understand the following HTML Code below, please don't change anything as it can screw up teh whole thang!
-    - Best Wishes (NovalFuzzy)
- -->
-<!-- Determines the DOCTYPE BOIS -->
+<!-- Determines the doctype, and basically makes everything work. -->
 <!DOCTYPE html>
+<!-- No more doctyping. RIP -->
 <html>
-<head>
-    <script src=./script.js type=text/javascript>
-        const ref = getURLParams().ref
-        //if (!ref) return;
-        if (ref == "dbl") {
-            alert("Hey! Thanks for checking out Hulkbot on DBL!\n-FHGDev")
-            document.location.href=document.location.href.split("?ref=dbl")
-        }
-        
-        if (ref == "inv") {
-            alert("Hey! Thanks for inviting Hulkbot!\n-FHGDev")
-            document.location.href=document.location.href.split("?ref=inv")
-        }
-    </script>
-    <!-- <script src="https://widget.battleforthenet.com/widget.js" async></script> -->
-    <!-- Import Frameworks -->
-  <meta charset="utf-8">
-  <script src="https://use.fontawesome.com/c580000a38.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-  <script async type="text/javascript" src="../js/bulma.js"></script>
-    <!-- Used for sum coolio previews -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Hulkbot">
-  <meta property="og:title" content="Hulkbot - Homepage">
-  <meta property="og:image" content="https://cdn.discordapp.com/attachments/356178662837452801/392851847037321216/Hulk.png">
-  <meta property="og:description" content="Hulkbot - A new and awesome Discord bot designed to make you happy!">
-  <meta name="keywords" content="Discord, DiscordApp, Discord bot, discord js">
-
-  <title>Hulkbot - Homepage</title>
-  <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/356178662837452801/392851847037321216/Hulk.png" />
-</head>
-<body>
+  <head>
+      <meta property="og:type" content="website">
+      <meta property="og:site_name" content="FHG Fans">
+      <meta property="og:title" content="FHGFans - Homepage">
+      <meta property="og:image" content="https://cdn.discordapp.com/icons/358279862324166659/29d005859fa972b49f0f4ca663b4ba58.jpg">
+      <meta property="og:description" content="The Official FreakingHulk Gaming Fan Webpage!">
+      <meta name="keywords" content="FHG, Fans, Home, YouTube, Discord, etc">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://fhgfans.tk/h1_p_styles.css" type=text/css>
+      <link rel="stylesheet" href=https://fhgfans.tk/positions.css type=text/css>
+      <title>Home - FHG Fans</title>
+     <link rel="shortcut icon" href="https://cdn.discordapp.com/icons/358279862324166659/29d005859fa972b49f0f4ca663b4ba58.jpg">
+  </head>
+  <body>
     <section class="hero is-info is-fullheight">
-    <section id="header" class="hero is-primary is-fullheight is-bold" style="background: url('https://itmagazine.us/wp-content/uploads/2018/01/6f6499a403cf64afea180b6419def4ef.jpg');background-size: 1250×800">
-    <div class="hero-head">
-    <nav class="navbar">
-        <div class="container">
-          <div class="navbar-brand">
-              <!-- Left Header (Bot & Name) -->
-            <a class="navbar-item" href="https://bot.hulkbot.ml/home">
-                <img src="https://cdn.discordapp.com/attachments/356178662837452801/392851847037321216/Hulk.png" style="border-radius: 100%;">
-                &nbsp;
-                Hulkbot
-            </a>
-        </div>
-        <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-end">
+      <section id=header class="hero is-primary is-fullheight is-bold" style="background-image: url('./img/4443457-cool-backgrounds.png');background-size: 1250x800">
+        <div class=hero-head>
+          <nav class=navbar>
+            <div class=container>
+              <div class=navbar-brand>
+                <!-- Left Header and Website Name -->
+                <a class="navbar-item is-active" href="#">
+                  <img src='https://cdn.discordapp.com/icons/358279862324166659/29d005859fa972b49f0f4ca663b4ba58.jpg' style="border-radius: 100%;">
+                  &nbsp;
+                  FHGFans
+                </a>
+              </div>
+              <div id=navbarMenu class=navbar-menu>
+                <div class="navbar-end">
                 <span id="nav-toggle" class="nav-toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </span>
-            </div>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  </span>
+                </div>
                 <!-- Tabs -->
-              <a class="navbar-item is-active" href="https://bot.hulkbot.ml/home">
-                Home
-              </a>
-              <a class="navbar-item" href='./commands.html'>
-                Commands
-              </a>
-            <a class="navbar-item" href=https://bot.hulkbot.ml/news>
-                Check out our newsletter!
-            </a>
-            <a class="navbar-item" href=https://gist.github.com/FHGDev/67ed143f693a6424cc4ef7ce9ca3c796>
-                Check out the docs!
-            </a>
-              <span class="navbar-item">
-                <a class="button is-white is-outlined is-small" href="https://discordapp.com/api/oauth2/authorize?client_id=294194506113220608&permissions=8&scope=bot" target="_blank">
+                <a class="navbar-item is-active" href=https://fhgfans.tk/home>Home</a><br>
+                <a class=navbar-item href="https://fhgfans.tk/youtube">YouTube Info</a><br>
+                <a class=navbar-item href="https://fhgfans.tk/discord">Discord Info</a><br>
+                <a class=navbar-item href=https://fhgfans.tk/error>Twitter Info</a><br>
+                <a class=navbar-item href=https://fhgfans.tk/roblox>ROBLOX Info</a><br>
+                <span class="navbar-item">
+                <a class="button is-white is-outlined is-small" href="https://discord.gg/dcTXqrp?redirect_uri=https%3A%2F%2Ffhgfans.tk%2Fhome" target="_blank">
                   <span class="icon">
                     <i class="fa fa-plus"></i>
                   </span>
-                  <span>Add to your server!</span>
+                  <span>Join our Discord Server!</span>
                 </a>
               </span>
-        </div>  
-    </nav>
-    </div>
-    <div class="hero-body">
-    <div class="container has-text-centered">
-          <!-- Class (Don't Change pls) -->
-        <div class="column is-6 is-offset-3">
-            <img src="https://cdn.discordapp.com/attachments/356178662837452801/392851847037321216/Hulk.png" style="border-radius: 100%;width:200px;">
-            <h1 class="title">
-                <i class="fa fa-rocket"></i>
-                Hulkbot is in development!
-                <a href="https://discordbots.org/bot/294194506113220608">
-                    <img src="https://discordbots.org/api/widget/294194506113220608.svg" />
-                </a>
-            </h1>
-          <br>
-          <!-- Sum coolio card thingy -->
-          <div class="box">
-                <article class="media">
-                  <div class="media-left">
-                    <figure class="image is-64x64">
-                      <img src="https://support.discordapp.com/hc/article_attachments/115000277491/wumpus_heart.png" alt="Image">
-                    </figure>
-                  </div>
-                  <div class="media-content">
-                    <div class="content">
-                      <p>
-                        <strong>Hulkbot</strong> <small>@HulkbotDevs</small> <small>37m</small>
-                        <br>
-                        Heyo! Uh-erm... Hai! Welcome to our uh-website! We are currently developing this site so check in later!
-                        <i class="fa fa-cog fa-spin fa-fw"></i>
-                      </p>
-                    </div>
-                  </div>
-                </article>
+              </div>
             </div>
+          </nav>
         </div>
-    </div>    
-    </div>
-    </section>
-    </section>
-</body>
-<!-- Credits? -->
-<footer class="footer">
-    <div class="container">
-        <div class="content has-text-centered">
-            <p>
-                <strong>Hulkbot</strong> is brought to you by <a href="https://github.com/FHGDev">FreakingHulk Gaming</a>, <a href="https://github.com/RHGDEV">RHG</a>, and <a href="https://github.com/NovalFuzzy">NovalFuzzy</a>.
-            </p>
-            <p>
-                <a class="icon" href="https://discordapp.com/" style="padding-top: 3px;">
-                    <i class="fa icon-discord"></i>
-                </a>
-                <a class="icon" href="https://github.com/FHGDev/JSHulkbot">
-                    <i class="fa fa-github"></i>
-                </a>
-            </p>
+        <div class=hero-body>
+          <center>
+            <h1>Welcome to FreakingHulk Gaming's Fan Page!</h1><br>
+            <p>Hello! Thanks for visiting. While you're here, take a look around! Tell your friends about my youtube channel, or join my discord server.</p>
+          </center>
         </div>
-    </div>
-</footer>
+     </section>
+      <footer class=footer>
+        <h1 id=creds>Credits</h1>
+        <p id=creds>https://fhgfans.tk is brought to you by <a href="https://github.com/FHGDev">FHGDev</a> and <a href="https://github.com/NovalFuzzy">NovalFuzzy</a>.</p>
+      </footer>
+  </body>
 </html>
+
